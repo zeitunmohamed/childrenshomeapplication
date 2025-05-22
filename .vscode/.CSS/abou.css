@@ -1,0 +1,17 @@
+body{
+    background-color: lightgreen;
+    h3{
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    font-size: medium;
+    }
+    .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px;
+    padding: 20px;
+    }
+    .small-image {
+    width: 600px; 
+    height: auto;
+    
